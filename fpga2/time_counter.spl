@@ -1,0 +1,9 @@
+[Inputs]
+clk
+push_button3
+reset_count
+=game_state[1:0]=
+[Outputs]
+is_pause_output
+=time_remain_output[7:0]=
+[BiDir]

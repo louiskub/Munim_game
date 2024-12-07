@@ -1,0 +1,17 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "pb3_from_fpga1" LOC = P117; # ????
+NET "clk" LOC = P123; 
+NET "reset_timer" LOC = P141;
+NET "is_pause_output" LOC = P126;
+NET "time_remaining_output[7]" LOC = P6;
+NET "time_remaining_output[6]" LOC = P8;
+NET "time_remaining_output[5]" LOC = P10;
+NET "time_remaining_output[4]" LOC = P12;
+NET "time_remaining_output[3]" LOC = P15;
+NET "time_remaining_output[2]" LOC = P17;
+NET "time_remaining_output[1]" LOC = P22;
+NET "time_remaining_output[0]" LOC = P24;
+NET "game_state[1]" LOC = P143;
+NET "game_state[0]" LOC = P2;

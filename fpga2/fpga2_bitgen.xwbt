@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\project\merge\add_special_btn\fpga2\fpga2.ncd
+OUTFILE=D:\project\merge\add_special_btn\fpga2\fpga2.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=D:\project\merge\add_special_btn\fpga2
+LICENSE=WebPack
+USER_INFO=__0_0_0

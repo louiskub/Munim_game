@@ -1,0 +1,6 @@
+vhdl work "lhod_game.vhd"
+vhdl work "edetect.vhf"
+vhdl work "VGA.vhd"
+vhdl work "split8x4x4.vhf"
+vhdl work "game_logic.vhf"
+vhdl work "main.vhf"

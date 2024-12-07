@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Fri Nov 08 18:56:57 2024
+# Process ID: 10212
+# Log file: D:/project/merge/add_special_btn/fpga1/planAhead_run_1/planAhead.log
+# Journal file: D:/project/merge/add_special_btn/fpga1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/project/merge/add_special_btn/fpga1/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  B]]
+startgroup
+set_property package_pin P123 [get_ports clk]
+endgroup
+set_property package_pin "" [get_ports [list  is_pause_in]]
+startgroup
+set_property package_pin P121 [get_ports pb1]
+endgroup
+startgroup
+set_property package_pin P119 [get_ports pb2]
+endgroup
+startgroup
+set_property package_pin P116 [get_ports pb3]
+endgroup
+startgroup
+set_property package_pin P116 [get_ports pb3]
+endgroup
+startgroup
+set_property package_pin P117 [get_ports pb3_to_fpga2]
+endgroup
+startgroup
+set_property package_pin P114 [get_ports pb4]
+endgroup
+set_property package_pin "" [get_ports [list  reset_count_to_fpga2]]
+save_constraints
+startgroup
+set_property package_pin P143 [get_ports {game_state_to_fpga2[1]}]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports {game_state_to_fpga2[0]}]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports {time_remain_in[7]}]
+endgroup
+startgroup
+set_property package_pin P8 [get_ports {time_remain_in[6]}]
+endgroup
+startgroup
+set_property package_pin P10 [get_ports {time_remain_in[5]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {time_remain_in[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {time_remain_in[3]}]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports {time_remain_in[2]}]
+endgroup
+startgroup
+set_property package_pin P22 [get_ports {time_remain_in[1]}]
+endgroup
+startgroup
+set_property package_pin P24 [get_ports {time_remain_in[0]}]
+endgroup
+startgroup
+set_property package_pin P123 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports G]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports HSYNC]
+endgroup
+startgroup
+set_property package_pin P126 [get_ports is_pause_in]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports R]
+endgroup
+startgroup
+set_property package_pin P141 [get_ports reset_count_to_fpga2]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports VSYNC]
+endgroup
+save_constraints

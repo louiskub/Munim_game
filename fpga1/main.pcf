@@ -1,0 +1,29 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Nov 08 19:18:30 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "G" LOCATE = SITE "P11" LEVEL 1;
+COMP "R" LOCATE = SITE "P14" LEVEL 1;
+COMP "pb1" LOCATE = SITE "P121" LEVEL 1;
+COMP "pb2" LOCATE = SITE "P119" LEVEL 1;
+COMP "pb3" LOCATE = SITE "P116" LEVEL 1;
+COMP "pb4" LOCATE = SITE "P114" LEVEL 1;
+COMP "clk" LOCATE = SITE "P123" LEVEL 1;
+COMP "HSYNC" LOCATE = SITE "P7" LEVEL 1;
+COMP "VSYNC" LOCATE = SITE "P5" LEVEL 1;
+COMP "reset_count_to_fpga2" LOCATE = SITE "P141" LEVEL 1;
+COMP "game_state_to_fpga2<0>" LOCATE = SITE "P2" LEVEL 1;
+COMP "game_state_to_fpga2<1>" LOCATE = SITE "P143" LEVEL 1;
+COMP "pb3_to_fpga2" LOCATE = SITE "P117" LEVEL 1;
+COMP "is_pause_in" LOCATE = SITE "P126" LEVEL 1;
+COMP "time_remain_in<0>" LOCATE = SITE "P24" LEVEL 1;
+COMP "time_remain_in<1>" LOCATE = SITE "P22" LEVEL 1;
+COMP "time_remain_in<2>" LOCATE = SITE "P17" LEVEL 1;
+COMP "time_remain_in<3>" LOCATE = SITE "P15" LEVEL 1;
+COMP "time_remain_in<4>" LOCATE = SITE "P12" LEVEL 1;
+COMP "time_remain_in<5>" LOCATE = SITE "P10" LEVEL 1;
+COMP "time_remain_in<6>" LOCATE = SITE "P8" LEVEL 1;
+COMP "time_remain_in<7>" LOCATE = SITE "P6" LEVEL 1;
+SCHEMATIC END;
+

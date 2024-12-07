@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\xillinx\data\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3
+-s 3 -n 3 -fastpaths -xml fpga2.twx fpga2.ncd -o fpga2.twr fpga2.pcf -ucf
+setpin.ucf
+
+Design file:              fpga2.ncd
+Physical constraint file: fpga2.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+--------------+------------+------------+------------+------------+------------------+--------+
+              |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source        | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+--------------+------------+------------+------------+------------+------------------+--------+
+game_state<0> |    3.903(R)|      SLOW  |    0.161(R)|      SLOW  |clk_BUFGP         |   0.000|
+game_state<1> |    4.492(R)|      SLOW  |   -0.612(R)|      SLOW  |clk_BUFGP         |   0.000|
+pb3_from_fpga1|    3.793(R)|      SLOW  |   -0.393(R)|      SLOW  |clk_BUFGP         |   0.000|
+reset_timer   |    3.876(R)|      SLOW  |    0.177(R)|      SLOW  |clk_BUFGP         |   0.000|
+--------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------------------+-----------------+------------+-----------------+------------+------------------+--------+
+                        |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination             |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------------------+-----------------+------------+-----------------+------------+------------------+--------+
+is_pause_output         |         7.305(R)|      SLOW  |         3.832(R)|      FAST  |clk_BUFGP         |   0.000|
+time_remaining_output<0>|         8.119(R)|      SLOW  |         4.252(R)|      FAST  |clk_BUFGP         |   0.000|
+time_remaining_output<1>|         8.996(R)|      SLOW  |         4.621(R)|      FAST  |clk_BUFGP         |   0.000|
+time_remaining_output<2>|         8.697(R)|      SLOW  |         4.387(R)|      FAST  |clk_BUFGP         |   0.000|
+time_remaining_output<3>|         8.665(R)|      SLOW  |         4.376(R)|      FAST  |clk_BUFGP         |   0.000|
+time_remaining_output<4>|         8.218(R)|      SLOW  |         4.109(R)|      FAST  |clk_BUFGP         |   0.000|
+time_remaining_output<5>|         7.812(R)|      SLOW  |         3.971(R)|      FAST  |clk_BUFGP         |   0.000|
+time_remaining_output<6>|         7.897(R)|      SLOW  |         4.048(R)|      FAST  |clk_BUFGP         |   0.000|
+------------------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.039|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sat Nov 09 20:02:51 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4586 MB
+
+
+

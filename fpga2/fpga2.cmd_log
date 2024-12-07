@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "D:/project/merge/fpga2/fpga2.xst" -ofn "D:/project/merge/fpga2/fpga2.syr" 
+xst -intstyle ise -ifn "D:/project/merge/fpga2/fpga2.xst" -ofn "D:/project/merge/fpga2/fpga2.syr" 
+xst -intstyle ise -ifn "D:/project/merge/fpga2/fpga2.xst" -ofn "D:/project/merge/fpga2/fpga2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setpin.ucf -p xc6slx9-tqg144-3 fpga2.ngc fpga2.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fpga2_map.ncd fpga2.ngd fpga2.pcf 
+par -w -intstyle ise -ol high -mt off fpga2_map.ncd fpga2.ncd fpga2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fpga2.twx fpga2.ncd -o fpga2.twr fpga2.pcf -ucf setpin.ucf 
+bitgen -intstyle ise -f fpga2.ut fpga2.ncd 
+xst -intstyle ise -ifn "D:/project/merge/add_special_btn/fpga2/fpga2.xst" -ofn "D:/project/merge/add_special_btn/fpga2/fpga2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setpin.ucf -p xc6slx9-tqg144-3 fpga2.ngc fpga2.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fpga2_map.ncd fpga2.ngd fpga2.pcf 
+par -w -intstyle ise -ol high -mt off fpga2_map.ncd fpga2.ncd fpga2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fpga2.twx fpga2.ncd -o fpga2.twr fpga2.pcf -ucf setpin.ucf 
+bitgen -intstyle ise -f fpga2.ut fpga2.ncd 
+xst -intstyle ise -ifn "D:/project/merge/add_special_btn/fpga2/fpga2.xst" -ofn "D:/project/merge/add_special_btn/fpga2/fpga2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setpin.ucf -p xc6slx9-tqg144-3 fpga2.ngc fpga2.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fpga2_map.ncd fpga2.ngd fpga2.pcf 
+par -w -intstyle ise -ol high -mt off fpga2_map.ncd fpga2.ncd fpga2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fpga2.twx fpga2.ncd -o fpga2.twr fpga2.pcf -ucf setpin.ucf 
+bitgen -intstyle ise -f fpga2.ut fpga2.ncd 

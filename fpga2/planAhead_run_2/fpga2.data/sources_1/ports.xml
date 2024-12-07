@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="game_state">
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="time_remaining_output">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="p47" Dir="IN"/>
+		<Port Id="p123" Dir="IN"/>
+		<Port Id="reset_timer" Dir="IN"/>
+		<Port Id="is_pause_output" Dir="OUT"/>
+		<Port Id="p27" Dir="OUT"/>
+		<Port Id="p29" Dir="OUT"/>
+		<Port Id="p30" Dir="OUT"/>
+		<Port Id="p32" Dir="OUT"/>
+		<Port Id="p33" Dir="OUT"/>
+		<Port Id="p34" Dir="OUT"/>
+		<Port Id="p35" Dir="OUT"/>
+		<Port Id="p40" Dir="OUT"/>
+		<Port Id="p41" Dir="OUT"/>
+		<Port Id="p43" Dir="OUT"/>
+		<Port Id="p44" Dir="OUT"/>
+		<Port Id="p82" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

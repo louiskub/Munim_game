@@ -1,0 +1,5 @@
+MODULE game_logic
+	SUBMODULE lhod_game
+		INSTANCE XLXI_52
+	SUBMODULE edetect
+		INSTANCE XLXI_38

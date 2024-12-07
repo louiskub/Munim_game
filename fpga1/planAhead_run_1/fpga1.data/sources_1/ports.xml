@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="time_remain_in">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="game_state_to_fpga2">
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="clk" Dir="IN"/>
+		<Port Id="is_pause_in" Dir="IN"/>
+		<Port Id="pb1" Dir="IN"/>
+		<Port Id="pb2" Dir="IN"/>
+		<Port Id="pb3" Dir="IN"/>
+		<Port Id="pb4" Dir="IN"/>
+		<Port Id="B" Dir="OUT"/>
+		<Port Id="G" Dir="OUT"/>
+		<Port Id="HSYNC" Dir="OUT"/>
+		<Port Id="pb3_to_fpga2" Dir="OUT"/>
+		<Port Id="R" Dir="OUT"/>
+		<Port Id="reset_count_to_fpga2" Dir="OUT"/>
+		<Port Id="VSYNC" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

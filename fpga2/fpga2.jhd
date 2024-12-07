@@ -1,0 +1,5 @@
+MODULE fpga2
+	SUBMODULE edetect
+		INSTANCE XLXI_60
+	SUBMODULE time_counter
+		INSTANCE XLXI_68

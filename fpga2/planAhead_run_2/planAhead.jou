@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu Nov 07 19:20:52 2024
+# Process ID: 14704
+# Log file: D:/project/merge/fpga2/planAhead_run_2/planAhead.log
+# Journal file: D:/project/merge/fpga2/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/project/merge/fpga2/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  is_pause_output]]
+startgroup
+set_property package_pin P27 [get_ports p27]
+endgroup
+startgroup
+set_property package_pin P29 [get_ports p29]
+endgroup
+startgroup
+set_property package_pin P30 [get_ports p30]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports p32]
+endgroup
+startgroup
+set_property package_pin P33 [get_ports p33]
+endgroup
+startgroup
+set_property package_pin P34 [get_ports p34]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports p35]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports p40]
+endgroup
+startgroup
+set_property package_pin P41 [get_ports p41]
+endgroup
+startgroup
+set_property package_pin P43 [get_ports p43]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports p44]
+endgroup
+startgroup
+set_property package_pin P47 [get_ports p47]
+endgroup
+startgroup
+set_property package_pin P82 [get_ports p82]
+endgroup
+startgroup
+set_property package_pin P123 [get_ports p123]
+endgroup
+startgroup
+set_property package_pin P141 [get_ports reset_timer]
+endgroup
+startgroup
+set_property package_pin P126 [get_ports is_pause_output]
+endgroup
+set_property package_pin "" [get_ports [list  {time_remaining_output[7]}]]
+startgroup
+set_property package_pin P6 [get_ports {time_remaining_output[7]}]
+endgroup
+startgroup
+set_property package_pin P8 [get_ports {time_remaining_output[6]}]
+endgroup
+startgroup
+set_property package_pin P10 [get_ports {time_remaining_output[5]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {time_remaining_output[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {time_remaining_output[3]}]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports {time_remaining_output[2]}]
+endgroup
+startgroup
+set_property package_pin P22 [get_ports {time_remaining_output[1]}]
+endgroup
+startgroup
+set_property package_pin P24 [get_ports {time_remaining_output[0]}]
+endgroup
+startgroup
+set_property package_pin P143 [get_ports {game_state[1]}]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports {game_state[0]}]
+endgroup
+save_constraints

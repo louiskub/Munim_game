@@ -1,0 +1,25 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "pb1" LOC = P121;
+NET "pb2" LOC = P119;
+NET "pb3" LOC = P116;
+NET "pb3_to_fpga2" LOC = P117;
+NET "pb4" LOC = P114;
+NET "game_state_to_fpga2[1]" LOC = P143;
+NET "game_state_to_fpga2[0]" LOC = P2;
+NET "time_remain_in[7]" LOC = P6;
+NET "time_remain_in[6]" LOC = P8;
+NET "time_remain_in[5]" LOC = P10;
+NET "time_remain_in[4]" LOC = P12;
+NET "time_remain_in[3]" LOC = P15;
+NET "time_remain_in[2]" LOC = P17;
+NET "time_remain_in[1]" LOC = P22;
+NET "time_remain_in[0]" LOC = P24;
+NET "clk" LOC = P123;
+NET "G" LOC = P11;
+NET "HSYNC" LOC = P7;
+NET "is_pause_in" LOC = P126;
+NET "R" LOC = P14;
+NET "reset_count_to_fpga2" LOC = P141;
+NET "VSYNC" LOC = P5;
